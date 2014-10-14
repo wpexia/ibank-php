@@ -4,15 +4,15 @@
 	<title>找回密码</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"/>
+	<link rel="stylesheet" href="lib/jmobile/jquery.mobile-1.3.2.min.css"/>
 	<style type="text/css">
 		.paypw-err {
 			color: #DB2929;
 			font-size: 0.95em;
 		}
 	</style>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	<script src="lib/jqurey/jquery-1.11.1.min.js"></script>
+	<script src="lib/jmobile/jquery.mobile-1.3.2.min.js"></script>
 </head>
 <body>
 <div data-role="page" data-theme="b">
@@ -20,7 +20,7 @@
 		<h1>iBank手机银行</h1>
 	</div>
 	<div data-role="content">
-		<div style="text-align: center">
+		<div style="">
 			<h3>卡号登陆</h3>
 		</div>
 		<form method="post" action="" name="form_fillAccountName" id="form_fillAccountName">

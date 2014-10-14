@@ -9,7 +9,7 @@ class UserDao {
 	function __construct() {
 	}
 
-	public static function sharedPlayerDao() {
+	public static function sharedUserDao() {
 		if (self::$_sharedUserDao == null) {
 			self::$_sharedUserDao = new UserDao();
 		}
